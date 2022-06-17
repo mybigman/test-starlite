@@ -1,0 +1,11 @@
+{
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "__pypackages__/3.10/bin/black",
+  "python.autoComplete.extraPaths": [
+    "__pypackages__/3.10/lib"
+  ],
+  "python.analysis.extraPaths": [
+    "./app",
+    "__pypackages__/3.10/lib"
+  ]
+}
